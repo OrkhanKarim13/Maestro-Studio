@@ -13,15 +13,12 @@ export default {
 }
 </script>
 <template>
-    <section class="  bg-[#0047FF] mx-9 rounded-md ">
-        <div class="w-3/4 flex flex-col justify-center items-center mx-auto my-0 gap-3 p-24 ">
+    <section class=" mx-9 mb-6 flex flex-col items-center justify-center gap-12 bg-[#0047FF] p-12 rounded-md ">
+        <div class="w-3/4 flex flex-col justify-center items-center mx-auto my-0 gap-3 ">
             <div class=" w-full text-3xl text-white mx-auto my-0 text-center">Proud to be partnered with the best</div>
-            <div class="w-10/12 text-center text-white">We’ve built innovative software with startups, SMBs, and enterprise size
-                companies from various industries.
-            </div>
         </div>
 
-        <div class="w-11/12 mx-auto my-0 grid place-content-center grid-cols-4 py-4 px-4 gap-4 bg-[#0047FF] pb-24">
+        <div class="w-11/12 mx-auto my-0 grid  grid-cols-1 md:grid-cols-4 place-content-center  py-4 px-4 gap-4 bg-[#0047FF] pb-24">
             <div class=" bg-white rounded-lg flex justify-center items-center rounded-lg border border-opacity-5 backdrop-filter backdrop-blur-[12.4px]"><img class="w-full p-4"
                     src="../assets/images/image 33.png" alt="logo"></div>
             <div class=" bg-white rounded-lg flex justify-center items-center"> <img class="w-full p-4"

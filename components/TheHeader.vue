@@ -3,7 +3,9 @@
     <header class="w-full bg-white p-9">
         <div class="w-full flex items-center justify-between">
             <div>
-                <img src="../assets/images/image 36.svg" alt="logo">
+                <NuxtLink to="/">
+                    <img src="../assets/images/image 36.svg" alt="logo">
+                </NuxtLink>
             </div>
             <ul class="flex border border-blue-500 rounded-full">
                 <li class="px-8 py-4 text-black">
