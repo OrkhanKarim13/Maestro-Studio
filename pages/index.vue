@@ -83,36 +83,36 @@
                     </li>
 
                 </ul>
-                <a class="uppercase py-4 px-8 text-white border border-white text-black font-semibold rounded-full"
+                <a class="uppercase py-4 px-8 text-white border border-white font-semibold rounded-full"
                     href="/">wiew all</a>
             </div>
             <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center  gap-6">
                     <img class="w-2/3 mx-auto" src="../assets/images/Frame 12.svg" alt="image">
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
-                        <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD’S
+                        <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
                             MOST ICONIC FOOTBALL CLUBS</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase uppercase" href="/">Wiew All</a>
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase " href="/">Wiew All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 12 (1).svg" alt="image">
+                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 121.svg" alt="image">
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">THE BEST THINGS IN
                             LIFE HAPPEN AROUND THE TABLE</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase uppercase" href="/">Wiew All</a>
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase " href="/">Wiew All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 12 (2).svg" alt="image">
+                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 122.svg" alt="image">
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
-                        <h4 class="text-2xl text-black font-bold">UNITING THE WORLD’S BIGGEST
+                        <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                         PUBLISHER BEHIND A SHARED MISSION</h4>
-                    <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase uppercase" href="/">Wiew All</a>
+                    <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase " href="/">Wiew All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 12 (3).svg" alt="image">
+                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 123.svg" alt="image">
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">HELPING ALIPAY REACH ITS
                         NEXT BILLION CUSTOMERS</h4>
