@@ -15,7 +15,7 @@ export default {
 <template>
     <section class=" mx-9 mb-6 flex flex-col items-center justify-center gap-12 bg-[#0047FF] p-12 rounded-md ">
         <div class="w-3/4 flex flex-col justify-center items-center mx-auto my-0 gap-3  ">
-            <div class=" w-full text-3xl text-white mx-auto my-0 text-center">Proud to be partnered with the best</div>
+            <div class=" w-full text-white text-3xl font-bold leading-6 text-center">Proud to be partnered with the best</div>
         </div>
 
         <div class="w-11/12 mx-auto my-0 grid  grid-cols-1 md:grid-cols-4 place-content-center  py-4 px-4 gap-4 bg-[#0047FF] pb-24">

@@ -2,38 +2,38 @@
 <template>
     <header class="w-full bg-white p-9">
         <div class="w-full flex items-center justify-between">
-            <div>
+            <div class="w-[209px]">
                 <NuxtLink to="/">
-                    <img src="../assets/images/image 36.svg" alt="logo">
+                    <img class="w-full" src="../assets/images/logo-maestro-black.svg" alt="logo">
                 </NuxtLink>
             </div>
             <ul class="flex border border-blue-500 rounded-full">
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/about">
                         ABOUT
                     </NuxtLink>
                 </li>
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/">
                         SERVICES
                     </NuxtLink>
                 </li>
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/">
                         PROJECTS
                     </NuxtLink>
                 </li>
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/">
                         BLOG
                     </NuxtLink>
                 </li>
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/">
                         CAREERS
                     </NuxtLink>
                 </li>
-                <li class="px-8 py-4 text-black">
+                <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/">
                         CONTACT US
                     </NuxtLink>
