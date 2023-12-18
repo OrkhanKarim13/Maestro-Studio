@@ -3,12 +3,12 @@
                 <ul class="flex border border-white-500 rounded-full">
                     <li class="px-8 py-4 text-white">
                         <NuxtLink to="/about">
-                            ABOUT
+                            All
                         </NuxtLink>
                     </li>
                     <li class="px-8 py-4 text-white">
                         <NuxtLink to="/">
-                            SERVICES
+                            CATEGORIES
                         </NuxtLink>
                     </li>
                     <li class="px-8 py-4 text-white">
@@ -26,14 +26,10 @@
                             CAREERS
                         </NuxtLink>
                     </li>
-                    <li class="px-8 py-4 text-white">
-                        <NuxtLink to="/">
-                            CONTACT US
-                        </NuxtLink>
-                    </li>
+                   
 
                 </ul>
                 <a class="uppercase py-4 px-8 text-white border border-white font-semibold rounded-full"
-                    href="/">wiew all</a>
+                    href="/">View all</a>
             </div>
 </template>

@@ -4,7 +4,7 @@
             <h1 class="text-7xl font-normal leading-40 text-white w-3/5">BUILDING INNOVATIVE</h1>
             <h1 class="text-7xl font-normal leading-40 text-white w-3/5"> FOR INDUSTRY LEADERS</h1>
 
-            <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Tell us about your project</a>
+            <a class="py-4 px-8 bg-white text-black font-semibold rounded-full uppercase" href="/">To contact page</a>
         </div>
     </section>
     <section class=" mx-9 mb-6  ">
@@ -18,7 +18,7 @@
                 <div class=" flex flex-col items-start justify-center gap-5 ">
                     <p class="text-white text-lg w-2/3">A secure messaging app for professional networks, companies and
                         organizations.</p>
-                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Read More</a>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">View</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                         <li class="px-8 py-4">Testing & Quality Assurance</li>
                         <li class="px-8 py-4">AI Software Development</li>
                         <li class="px-8 py-4"><a class="uppercase  text-blue-700 text-lg font-semibold cursor-pointer"
-                                href="/">Wiew All</a></li>
+                                href="/">View</a></li>
                     </ul>
                 </div>
                 <div class=" p-6">
@@ -58,7 +58,7 @@
                         <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
                             MOST ICONIC FOOTBALL CLUBS</h4>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
-                            href="/">Wiew All</a>
+                            href="/">view All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
@@ -67,7 +67,7 @@
                         <h4 class="text-2xl text-black font-bold">THE BEST THINGS IN
                             LIFE HAPPEN AROUND THE TABLE</h4>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
-                            href="/">Wiew All</a>
+                            href="/">view All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
@@ -76,7 +76,7 @@
                         <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                             PUBLISHER BEHIND A SHARED MISSION</h4>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
-                            href="/">Wiew All</a>
+                            href="/">view All</a>
                     </div>
                 </div>
                 <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
@@ -85,7 +85,7 @@
                         <h4 class="text-2xl text-black font-bold">HELPING ALIPAY REACH ITS
                             NEXT BILLION CUSTOMERS</h4>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase"
-                            href="/">Wiew All</a>
+                            href="/">view All</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                     <img class="w-full " src="../assets/images/Card-cover.svg" alt="image">
                 </div>
                 <div class="w-full px-6 py-4 flex items-center justify-between rounded-b-md  bg-white">
-                    <a class="uppercase text-lg font-semibold cursor-pointer" href="/">Wiew All</a>
+                    <a class="uppercase text-lg font-semibold cursor-pointer" href="/">view All</a>
                     <img src="../assets/images/Arrow 1.svg" alt="">
                 </div>
             </div>
@@ -138,7 +138,7 @@
                     <img class="w-full " src="../assets/images/Card-cover.svg" alt="image">
                 </div>
                 <div class="w-full px-6 py-4 flex items-center justify-between rounded-b-md  bg-white">
-                    <a class="uppercase text-lg font-semibold cursor-pointer" href="/">Wiew All</a>
+                    <a class="uppercase text-lg font-semibold cursor-pointer" href="/">view All</a>
                     <img src="../assets/images/Arrow 1.svg" alt="">
                 </div>
             </div>
@@ -180,28 +180,30 @@
 
                 </div>
             </div>
-        <div class="w-1/2  bg-[#0047FF]  p-12 flex flex-col items-start justify-between gap-6  rounded-md">
-            <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white text-white font-semibold"
-                type="text" name="" id="" value="Full Name">
-            <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
-                type="text" name="" id="" value="Phone">
-            <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
-                type="email" name="" id="" value="Email">
-            <label
-                class="w-full cursor-pointer px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center"
-                for="file">Attach File</label>
-            <input
-                class="w-full hidden px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold"
-                placeholder="asd" type="file" name="" id="file">
-            <p class="w-full px-8 py-5 text-white">Your personal data will be processed in accordance with our
-                <a href="/">privacy policy</a> for further contacting you regarding your request.
-            </p>
-            <button
-                class="w-full bg-white uppercase text-black-500 rounded-full font-bold py-5 border yx-8 hover:text-white hover:bg-transparent hover:border-white ">Send</button>
+            <div class="w-1/2  bg-[#0047FF]  p-12 flex flex-col items-start justify-between gap-6  rounded-md">
+                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white text-white font-semibold"
+                    type="text" name="" id="" value="Full Name">
+                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
+                    type="text" name="" id="" value="Phone">
+                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
+                    type="email" name="" id="" value="Email">
+                <label
+                    class="w-full cursor-pointer px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center"
+                    for="file">Attach File</label>
+                <input
+                    class="w-full hidden px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold"
+                    placeholder="asd" type="file" name="" id="file">
+                <p class="w-full px-8 py-5 text-white">Your personal data will be processed in accordance with our
+                    <a href="/">privacy policy</a> for further contacting you regarding your request.
+                </p>
+                <button
+                    class="w-full bg-white uppercase text-black-500 rounded-full font-bold py-5 border yx-8 hover:text-white hover:bg-transparent hover:border-white ">Send</button>
+            </div>
         </div>
-    </div>
 
-</section></template>
+    </section>
+    
+</template>
 
 
 
