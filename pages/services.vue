@@ -1,24 +1,92 @@
 <template>
-    <section class=" mx-9 mb-6  ">
-        <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-white"> <img src="../assets/images/Frame12.svg" alt="image">
+    <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
+            <div class="col-span-3 rounded-md">
+                <img class="rounded-md w-full object-cover h-[600px]" src="../assets/images/Frame12.svg" alt="image">
             </div>
-            <div class="  bg-[#0047FF]  p-12 flex flex-col items-start justify-between  rounded-md">
-                <div class="h-1/5 w-4/5 text-white text-3xl leading-10">Setting brand and digital strategies that mobilise
-                    teams.
-                </div>
-                <div class=" flex flex-col items-start justify-center ">
-                    <a class="text-white" href="/">OUR CAPABILITIES</a>
-                    <p class="text-white w-1/2 text-xl">Brand strategy
+            <div class="col-span-2 bg-[#0047FF] flex flex-col items-start justify-between  rounded-md">
+                <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
+                </h3>
+                <div class="flex flex-col items-start justify-center gap-5">
+                    <a class="text-white text-sm" href="/">OUR CAPABILITIES</a>
+                    <p class="text-white w-2/5 text-xl">Brand strategy
                         Brand architecture
                         Digital strategy</p>
                 </div>
                 <div class=" flex flex-col items-start justify-center gap-5 ">
-                    <h4 class="text-white text-4xl font-bold ">DEFINE AMBITIONS.</h4>
-
-                    <a class="py-4 px-8 bg-white text-blue-600 font-semibold rounded-full" href="/">Please Apply</a>
+                    <h3 class=" text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Please Apply</a>
                 </div>
             </div>
         </div>
+
     </section>
+    <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
+            
+            <div class="col-span-2  bg-[#0047FF]   flex flex-col items-start justify-between  rounded-md">
+                <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
+                </h3>
+                <div class="flex flex-col items-start justify-center gap-5">
+                    <a class="text-white text-sm" href="/">OUR CAPABILITIES</a>
+                    <p class="text-white w-2/5 text-xl">Brand strategy
+                        Brand architecture
+                        Digital strategy</p>
+                </div>
+                <div class=" flex flex-col items-start justify-center gap-5 ">
+                    <h3 class=" text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Please Apply</a>
+                </div>
+            </div>
+            <div class="col-span-3 rounded-md">
+                <img class="rounded-md w-full object-cover h-[600px]" src="../assets/images/Frame12(1).svg" alt="image">
+            </div>
+        </div>
+
+    </section>
+    <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
+            <div class="col-span-3 rounded-md">
+                <img class="rounded-md w-full object-cover h-[600px]" src="../assets/images/Frame12(3).svg" alt="image">
+            </div>
+            <div class="col-span-2  bg-[#0047FF]   flex flex-col items-start justify-between  rounded-md">
+                <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
+                </h3>
+                <div class="flex flex-col items-start justify-center gap-5">
+                    <a class="text-white text-sm" href="/">OUR CAPABILITIES</a>
+                    <p class="text-white w-2/5 text-xl">Brand strategy
+                        Brand architecture
+                        Digital strategy</p>
+                </div>
+                <div class=" flex flex-col items-start justify-center gap-5 ">
+                    <h3 class=" text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Please Apply</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
+            
+            <div class="col-span-2  bg-[#0047FF]   flex flex-col items-start justify-between  rounded-md">
+                <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
+                </h3>
+                <div class="flex flex-col items-start justify-center gap-5">
+                    <a class="text-white text-sm" href="/">OUR CAPABILITIES</a>
+                    <p class="text-white w-2/5 text-xl">Brand strategy
+                        Brand architecture
+                        Digital strategy</p>
+                </div>
+                <div class=" flex flex-col items-start justify-center gap-5 ">
+                    <h3 class=" text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">Please Apply</a>
+                </div>
+            </div>
+            <div class="col-span-3  rounded-md">
+                <img class="rounded-md w-full object-cover h-[600px]" src="../assets/images/Frame12(2).svg" alt="image">
+            </div>
+        </div>
+    </section>
+    <ContactForm/>
 </template>

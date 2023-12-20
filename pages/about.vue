@@ -28,7 +28,7 @@
                         <div class="p-6 flex flex-col items-center justify-center bg-[#0047FF]  rounded-md">
                             <div class="w-full flex flex-col gap-4">
                                 <div class="w-full  bg-white rounded-md"><img class="w-full"
-                                        src="../assets/images/image 42.svg" alt="person"></div>
+                                        src="../assets/images/image42(1).svg" alt="person"></div>
                                 <p class="text-white text-left">Front-end developer</p>
                                 <h4 class="text-white font-bold text-2xl text-left">Asgar Asgarov</h4>
                             </div>
@@ -36,7 +36,7 @@
                         <div class="p-6 flex flex-col items-center justify-center bg-[#0047FF]  rounded-md">
                             <div class="w-full flex flex-col gap-4">
                                 <div class="w-full bg-white rounded-md"><img class="w-full"
-                                        src="../assets/images/image 42.svg" alt="person"></div>
+                                        src="../assets/images/image42(1).svg" alt="person"></div>
                                 <p class="text-white text-left">Software developer</p>
                                 <h4 class="text-white font-bold text-2xl text-left">Ruhid Shukurlu</h4>
                             </div>
@@ -44,7 +44,7 @@
                         <div class="p-6 flex flex-col items-center justify-center bg-[#0047FF]  rounded-md">
                             <div class="w-full flex flex-col gap-4">
                                 <div class="w-full bg-white rounded-md"><img class="w-full"
-                                        src="../assets/images/image 15.svg" alt="person"></div>
+                                        src="../assets/images/image15.png" alt="person"></div>
                                 <p class="text-white text-left">Front-end developer</p>
                                 <h4 class="text-white font-bold text-2xl text-left">Orkhan Karimli</h4>
                             </div>
