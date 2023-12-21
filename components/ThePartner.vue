@@ -8,7 +8,7 @@
 
         <div
             class="w-11/12 mx-auto my-0 grid  grid-cols-1 md:grid-cols-4 place-content-center  py-4 px-4 gap-4 bg-[#0047FF] pb-24">
-            <div class=" bg-white relative flex justify-center items-center rounded-lg "><img class="w-full p-4  z-10 "
+            <div class=" bg-white relative flex justify-center items-center rounded-lg transition duration-300 hover:scale-105 cursor-pointer"><img class="w-full p-4  z-10 "
                     src="../assets/images/image 33.svg" alt="logo">
                 <div class="absolute bottom-20 left-5 w-full h-full overflow-hidden pointer-events-none">
 
@@ -16,7 +16,7 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img
                     class="w-full p-4 absolute z-10" src="../assets/images/image 31.svg" alt="logo">
                 <div class="absolute top-6 left-0 w-full h-full overflow-hidden pointer-events-none">
 
@@ -24,12 +24,12 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white  rounded-lg flex flex-col justify-center items-center gap-3 ">
+            <div class=" bg-white  rounded-lg flex flex-col justify-center items-center gap-3 transition duration-300 hover:scale-105 cursor-pointer">
                 <p class=" px-12 pt-7 text-base text-center">As a clothing brand, Levis plays an important role in the
                     American and
                     European markets.</p><img class="pb-5" src="../assets/images/image 19.svg" alt="logo">
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img class="w-full p-4  z-10"
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
                     src="../assets/images/image 32.svg" alt="logo">
                 <div class="absolute top-6 left-0 w-full h-full overflow-hidden pointer-events-none">
 
@@ -37,7 +37,7 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img class="w-full p-4  z-10"
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
                     src="../assets/images/image 24.svg" alt="logo">
                 <div class="absolute bottom-12 left-0 w-full h-full overflow-hidden pointer-events-none">
 
@@ -45,7 +45,7 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img class="w-full p-4 z-10"
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4 z-10"
                     src="../assets/images/image 29.svg" alt="logo">
                 <div class="absolute top-10 left-5 w-full h-full overflow-hidden pointer-events-none">
 
@@ -53,7 +53,7 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img class="w-full p-4  z-10"
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
                     src="../assets/images/image 18.svg" alt="logo">
                 <div class="absolute bottom-20 right-4 w-full h-full overflow-hidden pointer-events-none">
 
@@ -61,17 +61,17 @@
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center"> <img class="w-full  z-10 p-4 "
+            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full  z-10 p-4 "
                     src="../assets/images/image 28.svg" alt="logo">
                 <div class="absolute top-6 left-5 w-full h-full overflow-hidden pointer-events-none">
 
-                    <img  src="../assets/images/SuperToroid-1.svg" alt="Icon"
+                    <img src="../assets/images/SuperToroid-1.svg" alt="Icon"
                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
                 </div>
             </div>
         </div>
+        
     </section>
-    
 </template>
 
 <script>
@@ -92,9 +92,6 @@ export default {
 </script>
 
 <style>
-
-
-
 @keyframes bounce-x {
 
     0%,
@@ -107,7 +104,7 @@ export default {
     50% {
         transform: translateX(50px);
     }
-    
+
 }
 
 .animate-bounce-x {

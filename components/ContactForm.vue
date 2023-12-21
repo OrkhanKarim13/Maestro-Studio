@@ -10,11 +10,11 @@
         </div>
     </div>
     <div class="w-1/2  bg-[#0047FF]  p-12 flex flex-col items-start justify-between gap-6  rounded-md">
-        <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white text-white font-semibold"
+        <input class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white text-white font-semibold"
             type="text" name="" id="" value="Full Name">
-        <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
+        <input class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
             type="text" name="" id="" value="Phone">
-        <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
+        <input class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
             type="email" name="" id="" value="Email">
         <label
             class="w-full cursor-pointer px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center"

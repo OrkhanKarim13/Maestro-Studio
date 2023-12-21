@@ -24,17 +24,13 @@
                     </NuxtLink>
                 </li>
                 <li class="px-8 py-4 text-black hover:text-blue-700">
-                    <NuxtLink to="/">
+                    <NuxtLink to="/blog">
                         BLOG
                     </NuxtLink>
                 </li>
+                
                 <li class="px-8 py-4 text-black hover:text-blue-700">
-                    <NuxtLink to="/">
-                        CAREERS
-                    </NuxtLink>
-                </li>
-                <li class="px-8 py-4 text-black hover:text-blue-700">
-                    <NuxtLink to="/">
+                    <NuxtLink to="/contact">
                         CONTACT US
                     </NuxtLink>
                 </li>
