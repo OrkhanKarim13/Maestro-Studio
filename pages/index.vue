@@ -180,25 +180,7 @@
 
                 </div>
             </div>
-            <div class="w-1/2  bg-[#0047FF]  p-12 flex flex-col items-start justify-between gap-6  rounded-md">
-                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white text-white font-semibold"
-                    type="text" name="" id="" value="Full Name">
-                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
-                    type="text" name="" id="" value="Phone">
-                <input class="w-full px-8 py-4 rounded-full bg-transparent border border-white  text-white font-semibold"
-                    type="email" name="" id="" value="Email">
-                <label
-                    class="w-full cursor-pointer px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center"
-                    for="file">Attach File</label>
-                <input
-                    class="w-full hidden px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold"
-                    placeholder="asd" type="file" name="" id="file">
-                <p class="w-full px-8 py-5 text-white">Your personal data will be processed in accordance with our
-                    <a href="/">privacy policy</a> for further contacting you regarding your request.
-                </p>
-                <button
-                    class="w-full bg-white uppercase text-black-500 rounded-full font-bold py-5 border yx-8 hover:text-white hover:bg-transparent hover:border-white ">Send</button>
-            </div>
+            <ContactForm/>
         </div>
 
     </section>

@@ -34,6 +34,11 @@
                         CONTACT US
                     </NuxtLink>
                 </li>
+                <li class="px-8 py-4 text-black hover:text-blue-700">
+                    <NuxtLink to="/productDetail">
+                        product US
+                    </NuxtLink>
+                </li>
             </ul>
         </div>
 
