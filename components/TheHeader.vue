@@ -36,7 +36,12 @@
                 </li>
                 <li class="px-8 py-4 text-black hover:text-blue-700">
                     <NuxtLink to="/productDetail">
-                        product US
+                        product det
+                    </NuxtLink>
+                </li>
+                <li class="px-8 py-4 text-black hover:text-blue-700">
+                    <NuxtLink to="/productServices">
+                        product ser
                     </NuxtLink>
                 </li>
             </ul>

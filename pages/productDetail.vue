@@ -39,19 +39,28 @@
             </div>
         </div>
     </section>
-    <section class="mx-9 mb-6  rounded-md">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class=" cols-span-1 flex flex-col items-center h-full">
-                <div><img class="rounded-md w-full" src="../assets/images/home1.svg" alt="cover"></div>
+    <section class="mx-9 mb-6 rounded-md">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6  ">
+            <div class="col-span-1 ">
+                <img class="rounded-md " src="../assets/images/home1.svg" alt="cover">
             </div>
-            <div class=" h-full cols-span-1 grid grid-rows-2 ">
-               
-                    <div class="row-span-1"><img class="rounded-md w-full" src="../assets/images/home2.svg" alt="cover"></div>
-                    <div class="row-span-1"><img class="rounded-md w-full" src="../assets/images/clohes1.svg" alt="cover"></div>
-                
+            <div class="col-span-1 flex flex-col gap-6 ">
+                    <div class="w-full"><img class=" w-full h-[385px] object-cover rounded-md" src="../assets/images/home2.svg" alt="cover"></div>
+                    <div class="w-full"><img class="w-full h-[385px] object-cover rounded-md" src="../assets/images/clohes1.svg" alt="cover"></div>
             </div>
+            
         </div>
+        
        
 
+    </section>
+    <section class="mx-9 mb-6 rounded-md">
+        <div class="w-full" ><img  class="w-full rounded-md" src="../assets/images/internalPage1.svg" alt="cover"></div>
+    </section>
+    <section class=" rounded-md">
+    
+           
+            <ContactForm/>
+  
     </section>
 </template>

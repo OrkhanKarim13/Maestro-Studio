@@ -1,111 +1,232 @@
 
 <template>
-    <section class=" mx-9 mb-6 flex flex-col items-center justify-center gap-12 bg-[#0047FF] p-12 rounded-md ">
+    <section class="relative h-screen mx-9 mb-6 flex flex-col items-center justify-center gap-12 bg-[#0047FF] p-12 rounded-md ">
         <div class="w-3/4 flex flex-col justify-center items-center mx-auto my-0 gap-3  ">
             <div class=" w-full text-white text-3xl font-bold leading-6 text-center">Proud to be partnered with the best
             </div>
         </div>
 
         <div
-            class="w-11/12 mx-auto my-0 grid  grid-cols-1 md:grid-cols-4 place-content-center  py-4 px-4 gap-4 bg-[#0047FF] pb-24">
-            <div class=" bg-white relative flex justify-center items-center rounded-lg transition duration-300 hover:scale-105 cursor-pointer"><img class="w-full p-4  z-10 "
-                    src="../assets/images/image 33.svg" alt="logo">
-                <div class="absolute bottom-50 left-10 w-full h-full overflow-hidden pointer-events-none">
+            class="w-full mx-auto my-0 grid   grid-cols-1 md:grid-cols-4 place-content-center  py-4 px-4 gap-4 bg-[#0047FF] pb-24">
+            <div class="group  [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
 
-                    <img src="../assets/images/Cylinder.svg" alt="Icon"
-                        class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
-                </div>
-            </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img
-                    class="w-full p-4 absolute z-10" src="../assets/images/image 31.svg" alt="logo">
-                <div class="relative  w-full h-full overflow-hidden pointer-events-none">
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
 
-                    <img src="../assets/images/SuperToroid-2.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-blob animation-delay-2000" />
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
                 </div>
-            </div>
-            <div class=" bg-white  rounded-lg flex flex-col justify-center items-center gap-3 transition duration-300 hover:scale-105 cursor-pointer">
-                <p class=" px-12 pt-7 text-base text-center">As a clothing brand, Levis plays an important role in the
-                    American and
-                    European markets.</p><img class="pb-5" src="../assets/images/image 19.svg" alt="logo">
-            </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
-                    src="../assets/images/image 32.svg" alt="logo">
-                <div class="absolute top-6 left-0 w-full h-full overflow-hidden pointer-events-none">
 
-                    <img src="../assets/images/Sphere.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-blob animation-delay-2000" />
-                </div>
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
-                    src="../assets/images/image 24.svg" alt="logo">
-                <div class="absolute bottom-12 left-0 w-full h-full overflow-hidden pointer-events-none">
+            <div class="group  [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
 
-                    <img src="../assets/images/Cube-2.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-a" />
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
                 </div>
+
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4 z-10"
-                    src="../assets/images/image 29.svg" alt="logo">
-                <div class="absolute top-10 left-5 w-full h-full overflow-hidden pointer-events-none">
+            <div class="group  [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
 
-                    <img src="../assets/images/RoundCube-1.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
                 </div>
+
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full p-4  z-10"
-                    src="../assets/images/image 18.svg" alt="logo">
-                <div class="absolute bottom-20 right-4 w-full h-full overflow-hidden pointer-events-none">
+            <div class="group   [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
 
-                    <img src="../assets/images/Cone.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
                 </div>
+
             </div>
-            <div class=" bg-white relative rounded-lg flex justify-center items-center transition duration-300 hover:scale-105 cursor-pointer"> <img class="w-full  z-10 p-4 "
-                    src="../assets/images/image 28.svg" alt="logo">
-                <div class="absolute top-6 left-5 w-full h-full overflow-hidden pointer-events-none">
+            <div class="group [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
 
-                    <img src="../assets/images/SuperToroid-1.svg" alt="Icon"
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 filter blur-sm animate-bounce-x" />
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
                 </div>
+
+            </div>
+            <div class="group [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
+
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="group  [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
+
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="group [perspective:1000px]">
+                <div
+                    class="relative h-full w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    <div class="absolute inset-0  ">
+
+                        <div
+                            class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
+                            <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
+                                alt="logo">
+                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+
+                                <img src="../assets/images/Cylinder.svg" alt="Icon"
+                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 backface-hidden rounded-xl flex flex-col items-center justify-center text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                        <p class="text-black px-9  text-base text-center">As a clothing brand, Levis plays an important role
+                            in the
+                            American and
+                            European markets.</p>
+                        <img class="w-1/2 h-1/2" src="../assets/images/image 33.svg" alt="img">
+                    </div>
+                </div>
+
             </div>
         </div>
-        
+
     </section>
-    <div class="bg-gray-50 min-h-screen flex items-center justify-center px-16">
-  <div class="relative w-full max-w-lg">
-    <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-    <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-    <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-    <div class="m-8 relative space-y-4">
-      <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-        <div class="flex-1">
-          <div class="h-4 w-48 bg-gray-300 rounded"></div>
-        </div>
-        <div>
-          <div class="w-24 h-6 rounded-lg bg-purple-300"></div>
-        </div>
-      </div>
-      <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-        <div class="flex-1">
-          <div class="h-4 w-56 bg-gray-300 rounded"></div>
-        </div>
-        <div>
-          <div class="w-20 h-6 rounded-lg bg-yellow-300"></div>
-        </div>
-      </div>
-      <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-        <div class="flex-1">
-          <div class="h-4 w-44 bg-gray-300 rounded"></div>
-        </div>
-        <div>
-          <div class="w-28 h-6 rounded-lg bg-pink-300"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 </template>
 
 <script>
@@ -143,30 +264,7 @@ export default {
 
 .animate-bounce-x {
     animation: bounce-x 5s ease-in-out infinite;
-}
-
-@keyframes bounce-a {
-
-0%,
-100% {
-    transform: translateY(15px);
-    transform: translateX(0px);
-
-}
-
-50% {
-    transform: translateX(20px);
-}
-
-}
-
-.animate-bounce-a {
-animation: bounce-x 5s ease-in-out infinite;
-}
-
-
-
-</style>
+}</style>
 
 
 
