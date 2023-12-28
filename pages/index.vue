@@ -175,7 +175,7 @@
 
     </section>
     <ContactForm/>
-    <FlipCard/>
+
 </template>
 
 
