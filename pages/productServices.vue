@@ -10,15 +10,22 @@
                 application development.</p>
         </div>
     </section>
-    <ThePartner/>
-    <section  class="mx-9 mb-6 bg-[#0047FF]  rounded-md">
+    <ThePartner />
+    <section class="mx-9 mb-6 bg-[#0047FF]  rounded-md">
         <div class="flex flex-col items-start justify-center p-12 gap-9">
             <h3 class="text-8xl text-white leading-snug">Solutions for business</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="col-span-1 p-12 text-4xl text-white rounded-md border flex items-center justify-center border-white ">ENTERPRISE WEB APPLICATION DEVELOPMENT</div>
-                <div class="col-span-1 p-12 text-2xl bg-white text-black rounded-md"><p class="text-black">Medstar Solutions LLC is the biggest digital health provider in Ukraine and one of the active contributors to national healthcare reforms, and a creator of the first cloud-based medical system in Ukraine with a security certificate for medical data protection. Focusing on the basic needs of doctors, patients, and pharmacists, the company implements medical software and digitizes healthcare administration.</p></div>
+             <div v-for="i in 3" :key="i" class="grid grid-cols-1 md:grid-cols-2">
+                <div
+                    class="col-span-1 p-12 text-4xl text-white rounded-md border flex items-center justify-center border-white ">
+                    ENTERPRISE WEB APPLICATION DEVELOPMENT</div>
+                <div class="col-span-1 p-12 text-2xl bg-white text-black rounded-md">
+                    <p class="text-black">Medstar Solutions LLC is the biggest digital health provider in Ukraine and one of
+                        the active contributors to national healthcare reforms, and a creator of the first cloud-based
+                        medical system in Ukraine with a security certificate for medical data protection. Focusing on the
+                        basic needs of doctors, patients, and pharmacists, the company implements medical software and
+                    digitizes healthcare administration.</p>
             </div>
         </div>
-    </section>
-    <ContactForm/>
-</template>
+    </div>
+</section>
+<ContactForm /></template>
