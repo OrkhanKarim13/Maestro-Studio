@@ -1,10 +1,10 @@
 <template>
     <section class="bg-[#0047FF] mx-9 mb-6 rounded-md">
         <div class="flex flex-col items-start justfy-center p-12 gap-9">
-            <h1 class="text-7xl font-normal leading-40 text-white w-3/5">BUILDING INNOVATIVE</h1>
-            <h1 class="text-7xl font-normal leading-40 text-white w-3/5"> FOR INDUSTRY LEADERS</h1>
+            <h1 class="text-7xl font-normal leading-snug text-white w-3/5">BUILDING INNOVATIVE FOR INDUSTRY LEADERS</h1>
+            
 
-            <a class="py-4 px-8 bg-white text-black font-semibold rounded-full uppercase" href="/">To contact page</a>
+            <a class="py-4 px-8 bg-white text-black font-semibold rounded-full uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">To contact page</a>
         </div>
     </section>
     <section class=" mx-9 mb-6  ">
@@ -18,7 +18,7 @@
                 <div class=" flex flex-col items-start justify-center gap-5 ">
                     <p class="text-white text-lg w-2/3">A secure messaging app for professional networks, companies and
                         organizations.</p>
-                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full" href="/">View</a>
+                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">View</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
                             MOST ICONIC FOOTBALL CLUBS</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">THE BEST THINGS IN
                             LIFE HAPPEN AROUND THE TABLE</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                             PUBLISHER BEHIND A SHARED MISSION</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase "
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
                         <h4 class="text-2xl text-black font-bold">HELPING ALIPAY REACH ITS
                             NEXT BILLION CUSTOMERS</h4>
-                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase"
+                        <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
