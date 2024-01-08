@@ -3,7 +3,7 @@
         <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-6 px-16  rounded-md bg-[#0047FF] ">
             <div class="w-1/2 mx-auto flex flex-col justify-start items-center py-6 gap-6">
 
-                <img class="w-full" src="../assets/images/Layer 2 (1).svg" alt="logo">
+                <img class="w-full" src="../assets/images/logowhite.svg" alt="logo">
 
                 <div class="flex flex-col gap-5">
                     <div class="flex items-center gap-6">

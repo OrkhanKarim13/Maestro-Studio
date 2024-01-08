@@ -13,13 +13,13 @@
         <div class=" bg-[#0047FF]  p-12 flex flex-col items-start justify-between gap-6  rounded-md">
             <input
                 class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white text-white font-semibold"
-                type="text" name="" id="" value="Full Name">
+                type="text" name="" id="" placeholder="Full Name">
             <input
                 class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
-                type="text" name="" id="" value="Phone">
+                type="text" name="" id="" placeholder="Phone">
             <input
                 class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
-                type="email" name="" id="" value="Email">
+                type="email" name="" id="" placeholder="Email">
             <label
                 class="w-full cursor-pointer px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center"
                 for="file">Attach File</label>

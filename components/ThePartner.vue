@@ -1,6 +1,6 @@
 
 <template>
-    <section class=" h-screen mx-4 md:mx-9 mb-6 flex flex-col items-center justify-center gap-8 md:gap-12 bg-[#0047FF] p-8 md:p-12 rounded-md ">
+    <section class=" h-auto mx-4 md:mx-9 mb-6 flex flex-col items-center justify-center gap-8 md:gap-12 bg-[#0047FF] p-8 md:p-12 rounded-md ">
         <div class="grid h-full w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
             <div v-for="i in 8" :key="i" class="group  ">
                 <div class="relative w-full rounded-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
@@ -11,7 +11,7 @@
                             <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
 
                                 <img src="../assets/images/Cylinder.svg" alt="Icon"
-                                    class="absolute bottom-2 left-6 transform -translate-x-3 -translate-y-3 w-12 h-12  filter blur-sm mix-blend-multiply  animate-blob " />
+                                    class="absolute bottom-10 left-8 transform -translate-x-3 -translate-y-3 w-20 h-24  filter blur-sm mix-blend-multiply  animate-blob " />
                             </div>
                         </div>
                     </div>
@@ -32,41 +32,33 @@
 </template>
 
 <script>
-export default {
-    computed: {
-        blobPath() {
 
-            return this.generateBlobPath();
-        }
-    },
-    methods: {
-        generateBlobPath() {
-
-            return "M105.2,19.8C128.1,43,151,66.3,156.8,92.8C162.6,119.3,151.3,149.2,125.1,163.3C98.9,177.4,58,175.6,31.1,160.4C4.2,145.2,-8.7,116.8,0.4,91.5C9.5,66.1,43.1,43.7,68.2,19.5C93.2,-4.6,109.8,-31.2,105.2,-27.7C100.7,-24.2,75,1.3,105.2,19.8Z";
-        }
-    }
-};
 </script>
 
 <style>
 @keyframes bounce-x {
 
-    0%,
-    100% {
-        transform: translateY(45px);
+    50%,
+    20% {
+        transform: translateY(0px);
         transform: translateX(0px);
 
     }
 
-    50% {
-        transform: translateX(50px);
+    10% {
+        transform: translateY(0px);
     }
 
 }
 
 .animate-bounce-x {
-    animation: bounce-x 5s ease-in-out infinite;
+    animation: bounce-x 20s ease-in-out infinite;
+
 }
+
+
+
+
 </style>
 
 

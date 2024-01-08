@@ -1,24 +1,24 @@
 <template>
     <section class="bg-[#0047FF] mx-9 mb-6 rounded-md">
-        <div class="flex flex-col items-start justfy-center p-12 gap-9">
-            <h1 class="text-7xl font-normal leading-snug text-white w-3/5">BUILDING INNOVATIVE FOR INDUSTRY LEADERS</h1>
+        <div class="flex flex-col items-center md:items-start justfy-center px-8 py-14 md:p-12  gap-9">
+            <h1 class="text-5xl leading-snug lg:text-7xl text-center lg:text-left font-normal lg:leading-snug text-white w-full lg:w-3/5">BUILDING INNOVATIVE FOR INDUSTRY LEADERS</h1>
             
 
-            <a class="py-4 px-8 bg-white text-black font-semibold rounded-full uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">To contact page</a>
+            <a class="w-full lg:w-auto text-center md:text-center py-4 px-8 bg-white text-black font-semibold rounded-full uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">To contact page</a>
         </div>
     </section>
     <section class=" mx-9 mb-6  ">
-        <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="   rounded-md "> <img class="w-full" src="../assets/images/Frame 543.svg" alt="image"></div>
-            <div class="  bg-[#0047FF]  p-12 flex flex-col items-start justify-between  rounded-md">
-                <div class="h-1/5 w-4/5 text-white text-4xl font-bold leading-11">The website we did for Fish Restaurant
+        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="rounded-md"> <img class="w-full h-full" src="../assets/images/Frame 543.svg" alt="image"></div>
+            <div class="  bg-[#0047FF]  p-12 flex flex-col items-start justify-between rounded-md gap-20 ">
+                <div class=" w-4/5 text-white text-4xl font-bold leading-11">The website we did for Fish Restaurant
                 </div>
                 <div class=" flex items-center justify-center "><img src="../assets/images/Arrow 3.svg" alt="arrow">
                 </div>
                 <div class=" flex flex-col items-start justify-center gap-5 ">
-                    <p class="text-white text-lg w-2/3">A secure messaging app for professional networks, companies and
+                    <p class="text-white text-lg w-full lg:w-2/3">A secure messaging app for professional networks, companies and
                         organizations.</p>
-                    <a class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">View</a>
+                    <a class="w-full md:w-auto text-center md:text-center py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">View</a>
                 </div>
             </div>
         </div>
@@ -50,40 +50,44 @@
     <section class="mx-9 mb-6 bg-[#0047FF] p-12 rounded-md">
         <div class="flex flex-col gap-10">
             <h2 class="text-white text-3xl font-bold leading-6 text-center">Projects we provide</h2>
-            <MainNavigation />
+   
             <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center  gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 12.svg" alt="image">
-                    <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
+                <div class="rounded-md bg-white p-12 flex flex-col items-start justify-center  gap-6">
+                    <img class="w-full mx-auto" src="../assets/images/Frame 12.svg" alt="image">
+                    <div class="flex flex-col items-start justify-center mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
                             MOST ICONIC FOOTBALL CLUBS</h4>
+                            <p class="text-black text-lg">When we started in 2010, we were just a tight group dedicated to the craft of product building. Our attitude hasn't changed—but since then, we’ve grown to be a team.</p>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
-                <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 121.svg" alt="image">
-                    <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
+                <div class="rounded-md bg-white p-12 flex flex-col items-start justify-center gap-6">
+                    <img class="w-full mx-auto" src="../assets/images/Frame 121.svg" alt="image">
+                    <div class="flex flex-col items-start justify-center  mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">THE BEST THINGS IN
                             LIFE HAPPEN AROUND THE TABLE</h4>
+                            <p class="text-black text-lg">When we started in 2010, we were just a tight group dedicated to the craft of product building. Our attitude hasn't changed—but since then, we’ve grown to be a team.</p>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
-                <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 122.svg" alt="image">
-                    <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
+                <div class="rounded-md bg-white p-12 flex flex-col items-start justify-center gap-6">
+                    <img class="w-full mx-auto" src="../assets/images/Frame 122.svg" alt="image">
+                    <div class="flex flex-col items-start justify-center  mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                             PUBLISHER BEHIND A SHARED MISSION</h4>
+                            <p class="text-black text-lg">When we started in 2010, we were just a tight group dedicated to the craft of product building. Our attitude hasn't changed—but since then, we’ve grown to be a team.</p>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
                 </div>
-                <div class="rounded-md bg-white p-12 flex flex-col items-center justify-center gap-6">
-                    <img class="w-2/3 mx-auto" src="../assets/images/Frame 12 (3).svg" alt="image">
-                    <div class="flex flex-col items-start justify-center w-2/3 mx-auto gap-16">
-                        <h4 class="text-2xl text-black font-bold">HELPING ALIPAY REACH ITS
-                            NEXT BILLION CUSTOMERS</h4>
+                <div class="rounded-md bg-white p-12 flex flex-col items-start justify-center gap-6">
+                    <img class="w-full mx-auto" src="../assets/images/Frame 12 (3).svg" alt="image">
+                    <div class="flex flex-col items-start justify-center  mx-auto gap-3">
+                        <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
+                            PUBLISHER BEHIND A SHARED MISSION</h4>
+                            <p class="text-black text-lg">When we started in 2010, we were just a tight group dedicated to the craft of product building. Our attitude hasn't changed—but since then, we’ve grown to be a team.</p>
                         <a class="py-4 px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
                             href="/">view All</a>
                     </div>
@@ -94,7 +98,7 @@
     </section>
     <ThePartner />
     <section class="mx-9 mb-6 bg-[#0047FF] p-12 rounded-md">
-        <MainNavigation />
+
         <div class="py-12 w-full flex items-center gap-5">
             <div class="w-1/2 flex flex-col items-center justify-center rounded-md">
                 <div class="w-full flex flex-col items-start justify-center bg-white rounded-t-md  p-6 gap-6">
