@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full bg-white p-9">
+    <header class="w-full bg-white p-4 lg:p-9">
         <div class="w-full flex items-center justify-between">
             <div class="w-[209px]">
                 <NuxtLink to="/">

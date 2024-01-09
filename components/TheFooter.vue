@@ -1,9 +1,9 @@
 <template>
-    <footer class="mx-9 mb-6">
-        <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-6 px-16  rounded-md bg-[#0047FF] ">
-            <div class="w-1/2 mx-auto flex flex-col justify-start items-center py-6 gap-6">
+    <footer class="md:mx-9 md:mb-6">
+        <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-md bg-[#0047FF] ">
+            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 gap-6">
 
-                <img class="w-full" src="../assets/images/logowhite.svg" alt="logo">
+                <img class="md:w-full" src="../assets/images/logowhite.svg" alt="logo">
 
                 <div class="flex flex-col gap-5">
                     <div class="flex items-center gap-6">
@@ -21,7 +21,7 @@
                 </div>
 
             </div>
-            <div class="w-1/2 mx-auto flex flex-col justify-start  py-6 ">
+            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start  py-6 ">
 
                 <p class="text-large text-white font-normal leading-7">Monterail sp. z o.o.
                     Oławska 27-29
