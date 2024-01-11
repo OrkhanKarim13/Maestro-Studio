@@ -1,8 +1,8 @@
 
 <template>
     <section
-        class=" h-auto my-6 md:mx-9 mb-6 flex flex-col items-center justify-center gap-8 md:gap-12 bg-[#0047FF] p-8 md:p-12 md:rounded-md ">
-        <h3 class=" text-white text-3xl font-bold leading-6 text-center md:text-left">Proud to be partnered with the best
+        class=" h-auto md:mx-9 md:mb-6 px-4 py-6 lg:p-12 flex flex-col items-center justify-center gap-8 md:gap-12 bg-[#0047FF] p-8 md:p-12 md:rounded-md ">
+        <h3 class=" text-white text-3xl font-bold leading-8 text-center md:text-left">Proud to be partnered with the best
         </h3>
         <div class="grid h-full w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
             <div v-for="i in 8" :key="i" class="group  ">
