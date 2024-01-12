@@ -1,6 +1,6 @@
 <template>
     <footer class="md:mx-9 md:mb-6">
-        <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-md bg-[#0047FF] ">
+        <div class="w-full grid grid-cols-1 lg:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-md bg-[#0047FF] ">
             <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 gap-6">
 
                 <img class="md:w-full" src="../assets/images/logowhite.svg" alt="logo">

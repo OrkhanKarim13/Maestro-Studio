@@ -1,7 +1,7 @@
 <template>
-    <section class="mx-9 mb-6 bg-[#0047FF] p-12 rounded-md">
-        <div class="w-full flex flex-col items-start justify-center p-12 gap-6">
-            <h2 class="text-white text-8xl leading-tight uppercase">Medical Information
+    <section class="md:mx-9 md:mb-6 bg-[#0047FF] md:p-12 px-4 py-6 md:rounded-md">
+        <div class="w-full flex flex-col items-start justify-center md:p-12  px-4 py-6 gap-12 md:gap-6">
+            <h2 class="text-white lg:text-8xl md:text-4xl text-3xl leading-tight uppercase">Medical Information
                 System Medstar™</h2>
             <p class="text-white text-xl">Web application for managing hospitals and storing healthcare data.</p>
             <div class="flex items-center justify-between gap-2">
@@ -12,7 +12,7 @@
         </div>
 
     </section>
-    <section class="mx-9 mb-6 p-12 rounded-md bg-[#0047FF]">
+    <section class="md:mx-9 md:mb-6 md:p-12 px-4 py-6 md:rounded-md bg-[#0047FF]">
         <div class="flex flex-col items-start justify-center gap-6">
             <h2 class="text-6xl text-white uppercase ">Partner's Profile</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 ">

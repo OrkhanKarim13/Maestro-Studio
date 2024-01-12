@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-[#0047FF] mx-9 mb-6 rounded-md">
-        <div class="flex flex-col items-center justify-center w-full p-12 gap-10">
-            <h2 class="text-6xl font-bold text-white">Projects we provide</h2>
+    <section class="bg-[#0047FF] md:mx-9 md:mb-6 md:rounded-md">
+        <div class="flex flex-col items-center justify-center w-full md:p-12 px-4 py-6 md:gap-10 gap-6">
+            <h2 class="md:text-6xl text-3xl font-bold text-white">Projects we provide</h2>
             <MainNavigation />
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div class=" flex flex-col items-center justify-center rounded-md">
@@ -10,7 +10,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
@@ -33,7 +33,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
@@ -56,7 +56,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
@@ -79,7 +79,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
@@ -102,7 +102,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
@@ -125,7 +125,7 @@
                         <span>Dec 01, 2023</span> <span>8 min read</span>
                     </div>
                     <div>
-                        <h4 class="text-3xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
+                        <h4 class="md:text-3xl text-2xl font-bold leading-normal">EVOLVING ONE OF THE WORLD’S MOST ICONIC FOOTBALL CLUBS
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
