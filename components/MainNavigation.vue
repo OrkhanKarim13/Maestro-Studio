@@ -1,5 +1,5 @@
 <template>
-    <ul class="max-w-[300px] md:max-w-none flex border border-white rounded-full p-1 overflow-x-scroll  whitespace-nowrap">
+    <ul class="max-w-[300px] md:max-w-none flex border border-white rounded-full p-2 overflow-x-scroll  whitespace-nowrap">
         <li class="px-2 py-3 md:px-4 md:py-2 lg:px-8  lg:py-4 text-sm md:text-md  text-white">
             <NuxtLink to="/">
                 ALL
