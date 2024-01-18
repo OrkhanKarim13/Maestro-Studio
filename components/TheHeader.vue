@@ -140,7 +140,7 @@ export default {
           },
           {
             title: 'PROJECTS',
-            href: '#contact'
+            href: '/projects'
           },
           {
             title: 'BLOG',

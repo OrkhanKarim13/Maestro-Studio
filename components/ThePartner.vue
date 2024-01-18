@@ -13,10 +13,10 @@
                             class=" bg-white relative flex overflow-hidden justify-center items-center rounded-lg   cursor-pointer shadow-md shadow-black backface-hidden">
                             <img class="w-full p-4 group-hover:opacity-0  z-10 " src="../assets/images/image 33.svg"
                                 alt="logo">
-                            <div class="absolute  w-full h-full overflow-hidden pointer-events-none">
+                            <div class="absolute  mx-auto  w-15 animate-[spin_8s_ease-in-out_infinite] rounded-full  p-4 w-full h-full overflow-hidden pointer-events-none">
 
                                 <img src="../assets/images/Cylinder.svg" alt="Icon"
-                                    class="absolute bottom-10 left-8 transform -translate-x-3 -translate-y-3 w-20 h-24  filter blur-sm mix-blend-multiply  animate-blob " />
+                                    class="absolute bottom-10 left-8 w-20 h-24  filter blur-sm  animate-[spin_10s_ease-in-out_infinite] " />
                             </div>
                         </div>
                     </div>
@@ -36,6 +36,7 @@
         </div>
 
     </section>
+    
 </template>
 
 <script>
@@ -43,25 +44,7 @@
 </script>
 
 <style>
-@keyframes bounce-x {
 
-    50%,
-    20% {
-        transform: translateY(0px);
-        transform: translateX(0px);
-
-    }
-
-    10% {
-        transform: translateY(0px);
-    }
-
-}
-
-.animate-bounce-x {
-    animation: bounce-x 20s ease-in-out infinite;
-
-}
 </style>
 
 
