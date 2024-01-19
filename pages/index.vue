@@ -9,7 +9,7 @@
     </section>
     <section class=" md:mx-9 md:mb-6  ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
-            <div class="lg:rounded-md"> <img class="w-full h-full" src="../assets/images/bg.svg" alt="image"></div>
+            <div class="lg:rounded-md"> <img class="w-full h-full" src="../assets/gif/home.gif" alt="image"></div>
             <div class="  bg-[#0047FF]  pt-6 px-4 pb-12 lg:p-12 flex flex-col items-start justify-between lg:rounded-md gap-20 ">
                 <div class=" w-4/5 text-white text-4xl font-bold leading-11">The website we did for Fish Restaurant
                 </div>

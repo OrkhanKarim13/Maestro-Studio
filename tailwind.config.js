@@ -14,6 +14,9 @@ export default {
         blob: "blob 10s infinite",
         blob: "blob 10s infinite",
       },
+      fontFamily: {
+        aspekta: ['aspekta', 'sans-serif'],
+      },
       keyframes: {
         blob: {
           "0%": {

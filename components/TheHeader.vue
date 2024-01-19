@@ -69,34 +69,34 @@ export default {
       class=" text-black w-full bg-white p-4 lg:p-9"
       :class="{ 'absolute w-full  top-0 left-0': menu }"
     >
-      <div class="container  justify-between flex ">
-        <div class="w-auto p-6">
+      <div class=" w-full justify-between flex ">
+        
           <!-- Title -->
           <div class="w-[209px]">
                 <NuxtLink to="/">
-                    <img class="w-full" src="../assets/images/logo-maestro-black.svg" alt="logo">
+                    <img class="w-full h-full" src="../assets/images/logo-maestro-black.svg" alt="logo">
                 </NuxtLink>
             </div>
           <!-- Icon -->
   
-        </div>
+        
         <!-- Desktop nav list -->
         <nav class=" hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
-          <ul class="flex ">
+          <ul class="flex">
             <li
               v-for="(item, index) in items"
               :key="index"
             >
               <a
                 :href="item.href"
-                class="p-6 block text-black"
+                class="px-8 py-4 block text-black font-aspekta"
               >
                 {{ item.title }}
               </a>
             </li>
           </ul>
         </nav>
-        <!-- Toggle menu mobile icon -->
+        <!-- Mobile icon -->
           <div
             class="ml-auto sm:hidden p-6"
             @click="menu = !menu"
@@ -140,7 +140,7 @@ export default {
           },
           {
             title: 'PROJECTS',
-            href: '/projects'
+            href: '/rojects'
           },
           {
             title: 'BLOG',

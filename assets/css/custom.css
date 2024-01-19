@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'aspekta';
+    src: url('~@/assets/Fonts/Aspekta/Aspekta-400.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'aspekta';
+    src: url('~@/assets/Fonts/Aspekta/Aspekta-500.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'aspekta';
+    src: url('~@/assets/Fonts/Aspekta/Aspekta-600.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'aspekta';
+    src: url('~@/assets/Fonts/Aspekta/Aspekta-700.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
