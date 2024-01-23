@@ -42,7 +42,7 @@
                     </ul>
                 </div>
                 <div class=" p-6">
-                    <img src="../assets/images/8.svg" alt="image">
+                    <img src="../assets/images/rocket.svg" alt="image">
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
    
             <div class=" grid grid-cols-1 md:grid-cols-2 lg:gap-6 gap-8">
                 <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center  gap-6">
-                    <img class="w-full mx-auto" src="../assets/images/Frame 12.svg" alt="image">
+                    <img class="w-full mx-auto" src="../assets/images/Frame1.svg" alt="image">
                     <div class="flex flex-col items-start justify-center mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
                             MOST ICONIC FOOTBALL CLUBS</h4>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center gap-6">
-                    <img class="w-full mx-auto" src="../assets/images/Frame 121.svg" alt="image">
+                    <img class="w-full mx-auto" src="../assets/images/Frame2.svg" alt="image">
                     <div class="flex flex-col items-start justify-center  mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">THE BEST THINGS IN
                             LIFE HAPPEN AROUND THE TABLE</h4>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center gap-6">
-                    <img class="w-full mx-auto" src="../assets/images/Frame 122.svg" alt="image">
+                    <img class="w-full mx-auto" src="../assets/images/Frame3.svg" alt="image">
                     <div class="flex flex-col items-start justify-center  mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                             PUBLISHER BEHIND A SHARED MISSION</h4>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center gap-6">
-                    <img class="w-full mx-auto" src="../assets/images/Frame 12 (3).svg" alt="image">
+                    <img class="w-full mx-auto" src="../assets/images/Frame4.svg" alt="image">
                     <div class="flex flex-col items-start justify-center  mx-auto gap-3">
                         <h4 class="text-2xl text-black font-bold">UNITING THE WORLD'S BIGGEST
                             PUBLISHER BEHIND A SHARED MISSION</h4>
@@ -114,13 +114,13 @@
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
-                        <img src="../assets/images/Ellipse 1 (1).svg" alt="person">
+                        <img src="../assets/images/person.svg" alt="person">
                         <p class="text-base font-normal leading-normal">Anastasiia Chornous</p>
                     </div>
 
                 </div>
                 <div class="w-full object-cover">
-                    <img class="w-full " src="../assets/images/Card-cover.svg" alt="image">
+                    <img class="w-full " src="../assets/images/frame5.svg" alt="image">
                 </div>
                 <div class="w-full px-6 py-4 flex items-center justify-between rounded-b-md  bg-white">
                     <a class="uppercase md:text-lg  text-md font-semibold cursor-pointer" href="/">view All</a>
@@ -137,13 +137,13 @@
                         </h4>
                     </div>
                     <div class="flex items-center gap-4">
-                        <img src="../assets/images/Ellipse 1 (1).svg" alt="person">
+                        <img src="../assets/images/person.svg" alt="person">
                         <p class="text-base font-normal leading-normal">Anastasiia Chornous</p>
                     </div>
 
                 </div>
                 <div class="w-full object-cover">
-                    <img class="w-full " src="../assets/images/Card-cover.svg" alt="image">
+                    <img class="w-full " src="../assets/images/frame5.svg" alt="image">
                 </div>
                 <div class="w-full px-6 py-4 flex items-center justify-between rounded-b-md  bg-white">
                     <a class="uppercase text-lg font-semibold cursor-pointer" href="/">view All</a>

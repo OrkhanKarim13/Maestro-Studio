@@ -1,7 +1,7 @@
 <template>
     <footer class="md:mx-9 md:mb-6">
         <div class="w-full grid grid-cols-1 lg:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-md bg-[#0047FF] ">
-            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 gap-6">
+            <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 gap-6">
 
                 <img class="md:w-full" src="../assets/images/logowhite.svg" alt="logo">
 
@@ -21,7 +21,7 @@
                 </div>
 
             </div>
-            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
+            <div class=" md:mx-auto flex flex-col gap-2 justify-start items-start px-4 md:py-6 ">
 
                 <p class="text-large text-white font-normal leading-7">Monterail sp. z o.o.
                     Oławska 27-29
@@ -35,7 +35,7 @@
                 <div class="w-full border-b border-white my-3"></div>
                 <p class="text-lg text-white leading-7">+48 533 600 136</p>
             </div>
-            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
+            <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
                 <p class="text-lg text-white leading-7">About
                 </p>
 
@@ -49,7 +49,7 @@
                 <p class="text-lg text-white leading-7">Our workfloww
                 </p>
             </div>
-            <div class="md:w-1/2 md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
+            <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
                 <p class="text-lg text-white leading-7">Careers
 
                 </p>
